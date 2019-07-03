@@ -1,0 +1,48 @@
+公众号pc碰上IOT
+AppID
+wxa967ff121710246d
+AppSecret
+85c873a98abbae95284863c079de82d1
+EncodingAESKey
+YAKyuJacylsSEfkSpYLz5pWqPZoTTbOtHWJ3UhVHeVZ
+轻量服务器IP
+ 39.108.128.126公
+172.17.25.202内
+http://cpc.free.idcfengye.com/weichat/wx
+
+130434a23w7.cdb@sina.cn
+prince06205258
+
+//解决从url上建立连接获取数据的乱码问题
+https://blog.csdn.net/ecjtuhq/article/details/52305431
+	byte[] b = new byte[1024];
+	String line=null;
+BufferedReader reader = new BufferedReader(new InputStreamReader(is, "utf-8"));
+	StringBuilder sb = new StringBuilder();
+	//解决url乱码问题
+	 while ((line= reader.readLine()) != null) {
+	 sb.append(line + "\n");}
+             return  sb.toString();
+
+cc21f39409dddb76
+
+远程项目与本地项目连接
+git:git remote add origin git@github.com:pcNewbee/weichat.git
+
+
+jar包下载
+https://www.mvnjar.com/xpp3/xpp3/1.1.4c/detail.html
+https://www.mvnjar.com/
+
+源码
+https://github.com/Michaelliangxu/book/tree/notebook
+测试号登陆地址
+https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+
+AI开放平台API
+http://console.bce.baidu.com/ai/?fromai=1#/ai/speech/app/detail~appId=1042473
+APP_ID = "16451820"
+API_KEY = "TRvUwqFNTneybvZUEBH3F3xx"
+SECRET_KEY = "eMlGd8SPNvbl64R3vlvEgoaSWy1cbxC7"
+//生成二维码ticket
+https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=gQEZ8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydzdjdW9lMFBkSmwxMDAwME0wM1IAAgR9VvpcAwQAAAAA
